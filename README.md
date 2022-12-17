@@ -6,6 +6,6 @@ With this tool you can shutdown any website aur server
 # Installation
 > just copy and paste this command in you termux app
 ```
-https://raw.githubusercontent.com/Anon4You/MultiDos/main/install
+curl -sSL https://raw.githubusercontent.com/Anon4You/MultiDos/main/install | bash
 ```
 
