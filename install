@@ -1,0 +1,14 @@
+#!/bin/bash
+rm $PREFIX/bin/androvirus > /dev/null 2>&1
+echo $'\e[32;1m'"---installing upgrade"$'\e[0m'
+apt update && apt upgrade -y
+echo $'\e[32;1m'"---installing python"$'\e[0m'
+apt install python figlet toilet -y
+echo $'\e[32;1m'"---installing androvirus"$'\e[0m'
+curl -LO https://raw.githubusercontent.com/Anon4You/MultiDos/main/multidos
+mv multidos $PREFIX/bin
+chmod 777 $PREFIX/bin/multidos
+clear
+figlet -f smblock Installed
+echo now you can run the tool
+echo "by typing"$'\e[32;1m'" multidos"
