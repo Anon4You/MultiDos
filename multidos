@@ -1,4 +1,5 @@
 #!/bin/python
+# Author : Bishal Singh ~Alienkrishn
 import socket,threading,os.path,random,itertools,time,sys
 os.system("clear")
 attack_num=0
